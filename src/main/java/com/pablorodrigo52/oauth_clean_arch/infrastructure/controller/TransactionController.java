@@ -3,6 +3,9 @@ package com.pablorodrigo52.oauth_clean_arch.infrastructure.controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.pablorodrigo52.oauth_clean_arch.application.usecases.GetTransactionUsecase;
+import com.pablorodrigo52.oauth_clean_arch.infrastructure.controller.dto.GetTransactionResponse;
+import com.pablorodrigo52.oauth_clean_arch.infrastructure.controller.dto.TransactionDTOMapper;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

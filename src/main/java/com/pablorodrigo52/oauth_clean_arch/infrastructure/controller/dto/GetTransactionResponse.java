@@ -1,4 +1,4 @@
-package com.pablorodrigo52.oauth_clean_arch.infrastructure.controller;
+package com.pablorodrigo52.oauth_clean_arch.infrastructure.controller.dto;
 
 import java.math.BigDecimal;
 
